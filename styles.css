@@ -1,0 +1,135 @@
+/* Body */
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+}
+
+/* main */
+main {
+  width: 50%;
+  margin: auto;
+}
+
+@media (max-width: 650px) {
+  main {
+    width: 100%;
+  }
+}
+
+/* Nav */
+
+.nav-page {
+  width: 100%;
+  background-color: #ed646f;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.nav-page-navigation {
+  text-align-last: right;
+  margin-top: 25px;
+  padding: 10px;
+}
+
+/* Header */
+header {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.header-image {
+  width: 80%;
+}
+
+.header-highlight {
+  font-size: larger;
+  font-weight: bolder;
+  color: #e6303f;
+}
+
+header h2 {
+  color: gray;
+}
+
+/* Sections */
+
+.section-content {
+  box-sizing: border-box;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.section-content:nth-child(2n + 1) {
+  background-color: lightgray;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #ed646f;
+  padding: 20px;
+}
+
+footer h2 {
+  color: white;
+  margin: 5px;
+  font-weight: 600;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  margin-top: 10px;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+/* Links */
+.links-nav {
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.links-github {
+  color: red;
+}
+
+.links-projects {
+  display: block;
+  margin: 10px;
+}
+
+.links-nav-title {
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.links-nav-active {
+  font-weight: 600;
+}
+
+.link-section {
+  text-decoration: none;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+/* Typography */
+.typography {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
