@@ -111,7 +111,7 @@ footer ul li a {
 }
 
 .links-projects {
-  display: block;
+  display: inline-block;
   margin: 10px;
 }
 
